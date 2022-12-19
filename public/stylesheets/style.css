@@ -1,0 +1,40 @@
+body {
+  background-image: url('../images/34251455.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  max-height: 90%;
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.sectionTop{
+  display: flex;
+  justify-content: center;
+}
+
+.border{
+  position: absolute;
+  top: 25%;
+  box-shadow: 0 2px 12px rgb(255, 108, 85);
+}
+
+a {
+  color: #00B7FF;
+}
+
+/* DASHBOARD */
+
+.sectionMainDash{
+  position: relative;
+}
+
+.sectionDash{
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, 15em); 
+  text-align: center;
+  box-shadow: 0 2px 12px black;
+}

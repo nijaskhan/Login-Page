@@ -1,0 +1,47 @@
+<div class="container-fluid w-100 h-100">
+      {{!-- LOGO --}}
+
+      <div class="col-lg-12 d-lg-block d-md-none d-sm-none mx-0 my-0 p-3" style="font-weight: bold;">
+        <span style="background-color: black;">
+          <span class="p-1" style="color: #fff; font-size: 2rem;">BRO</span>
+        </span>
+        <span style="color: #fff;font-size: 2rem;">TOTYPE</span>
+      </div>
+      <div class="col-lg-12 d-lg-none d-md-block d-sm-block mx-0 my-0 p-3" style="font-weight: bold;">
+        <span style="background-color: black;">
+          <span class="p-1" style="color: #fff; font-size: 40px;">BRO</span>
+        </span>
+        <span style="color: #fff;font-size: 40px;">TOTYPE</span>
+      </div>
+
+      {{!-- LOGO --}}
+
+      {{!-- FORM --}}
+
+      <div class="row sectionTop">
+        <span class="border" style="width: 25em">
+          <div class="col-lg-12 col-md-12 col-sm-12 section">
+            <form class="p-5" action="/login" method="post">
+              <h1 class="text-center pl-3" style="color: white;"> {{title}} </h1><br><br>
+              <span class="text-center" style="font-weight: bold; font-family: 'Times New Roman', Times, serif; font-style: italic;color: greenyellow;"> {{logout}} </span> 
+              <div class="form-group">
+                <label for="exampleInputEmail1" style="color: #fff;">Email address</label>
+                <input type="email" class="form-control" aria-describedby="emailHelp" name="email" placeholder="Enter email">
+                <small id="emailHelp" class="form-text" style="color: rgb(164, 164, 164);">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1" style="color: #fff;">Password</label>
+                <input type="password" class="form-control" name="password" placeholder="Password">
+              </div><br>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form> 
+          </div>
+        </span>   
+      </div>
+
+      {{!-- FORM --}}
+    </div>
+
+
